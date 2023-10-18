@@ -14,19 +14,103 @@
 
      <p class="demo">yess</p>
 
+      <h1 id="yes">heyy zack</h1>
 
+      <h3 id="variables"></h3>
 
+      <h2 id="var"></h2>
+
+      <p id="details"></p>
+
+      <p id="let$"></p>
+      
+      <p id="const"></p>
+
+      <p id="string-opt"></p>
+
+      <h2 id="oprts" ></h2>
+
+      <p id="min"></p>
+
+    
+
+   
 
      <script>
-
+      
+      
         document.getElementsByClassName('demo')[0].innerHTML= 56+34;
         document.write("A apple");
         // window.alert("Sorry not possible")
-        alert("Sorry mister");
+      //   alert("Sorry mister");
         console.log(89+12);
-     
+        document.getElementById('yes').innerHTML = "muhammed " + "midlaj" + "pulladan";
 
 
+        z=23;
+        x=27;
+        y=z+x;
+        document.getElementById('variables').innerHTML = "Answer is :" + y;
+
+
+      var m=11;
+      var h=13;
+      var F=m+h;
+      document.getElementById('var').innerHTML = "ansr" + F;
+
+      let car="BM",  person ="zack" ,age=18
+      document.getElementById('details').innerHTML = car + person;
+
+//  let and const not redeclare not possible 
+      // let carName = "shift";
+      // let carName = "shift";
+      // let carName = "blackshift"
+
+         let $$=34;
+         let $$$hey=34;
+         document.getElementById('let$').innerHTML = $$ + $$$hey;
+
+
+
+         const cars =["BM","Benz","audi"]
+         cars[0] = "Shift"
+         cars.push('maruthi');
+
+         document.getElementById('const').innerHTML = cars;
+
+
+
+         let text1 =34;
+         let text2 = 24;
+         let result = text2 < text1;
+         document.getElementById('string-opt').innerHTML = result;
+         document.getElementById('string-opt').style.backgroundColor ="black";
+         document.getElementById('string-opt').style.color ="red";
+
+
+         // assign and plus opretors using
+         let contant = "where are you from";
+         contant +="iam come to dubai";
+
+         document.getElementById('oprts').innerHTML = contant;
+
+
+         let minus =23;
+         minus -=3;
+         document.getElementById('min').innerHTML = minus;
+
+ 
+         function sampile(){
+            console.log("heyyy zckkkkkkkkkkkkk");
+            console.log("heyyy zckkkkkkkkkkkkk");
+            console.log("heyyy zckkkkkkkkkkkkk");
+            console.log("heyyy zckkkkkkkkkkkkk");
+            console.log("heyyy zckkkkkkkkkkkkk");
+            console.log("heyyy zckkkkkkkkkkkkk");
+            console.log("heyyy zckkkkkkkkkkkkk");
+         }
+         sampile();
+         
      </script>
 </body>
 </html>
