@@ -33,7 +33,10 @@
       <p id="min"></p>
 
     
+      <p id="object" ></p>
 
+
+      <p id="project"></p>
    
 
      <script>
@@ -110,7 +113,58 @@
             console.log("heyyy zckkkkkkkkkkkkk");
          }
          sampile();
+
+
+
+         const object = {
+            person:"zack",
+            age : 18,
+            job : "full stack developer"
+
+         }
+
+
+         document.getElementById('object').innerHTML ="This is object methode " + object.person + object.age + object.job;
          
+
+
+
+            function sum(a,b){
+               return a + b;
+            }
+              alert(sum(20,12));
+
+ 
+
+              exaple = function (c ,d ) {
+               return c + d;
+              }
+              alert(exaple(32,45));
+
+
+
+               sum1 = (n,m) => {
+                  return (n+m);
+               } 
+               alert(sum1(23,45));
+
+
+               sum2 = (s,v) => s+v; 
+               alert(sum2(34,6));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
      </script>
 </body>
 </html>
