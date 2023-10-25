@@ -42,7 +42,7 @@
 
     <p id="dom"></p>
 
-    <button id="btn">heyy zackk</button>
+    <button id="btn">heyy zackkp</button>
 
          <button id="eventlist"></button>
 
@@ -83,8 +83,29 @@
           <input type="checkbox" onmouseover="myhrv()"  id="chek">
         </form>
 
+    <p id="fid" >hooo</p>
+
+    <p id="cr"></p>
+
     <script>
 
+      const letter = new Set();
+       letter.add("bu");
+       letter.add("hiw");
+       letter.add("woe");
+
+       document.getElementById("cr").innerHTML = letter.size;
+
+        const vechile = new Map([
+          ["benz",3400],
+          ["audi",7899],
+          ["BMw",288]
+        ]);
+
+         let value= document.getElementById("fid").innerHTML = vechile.has("benz");
+        
+          
+        
 
       function myhrv(){
         document.getElementById("chek").click();  
