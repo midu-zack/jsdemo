@@ -32,7 +32,7 @@ function message(){
             ["BMw",288]
           ]);
   
-           let value= document.getElementById("fid").innerHTML = vechile.has("benz");
+           let value = document.getElementById("fid").innerHTML = vechile.has("benz");
           
             
           
@@ -46,6 +46,8 @@ function message(){
         // function chemmadan() {
         //  let lis = document.getElementById("call").classList;
         //   lis.add("myStyle");
+
+        
         // }
   
         function chemmadan() {
