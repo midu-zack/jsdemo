@@ -1,4 +1,3 @@
-
 const gamingplay = [
     {
     id :0,
@@ -23,16 +22,5 @@ const gamingplay = [
 
 ];
 
-// const newArray =[]
-// for(let i=0;i<gamingplay.length;i++){
-//     newArray.push(gamingplay[i].name)
-// }
-
-// console.log(newArray);
-
-
-
-
-const newArray = gamingplay.filter((value) =>value.age===90 && value.id=== 0);
-
-console.log(newArray);
+const finding = gamingplay.find((value) => value.name === "zack");
+console.log(finding);

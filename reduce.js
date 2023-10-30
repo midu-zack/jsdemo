@@ -46,11 +46,28 @@ console.log(totalamount);
 
 
 
-const users = [
-    {firstname :"muhammed", lastname : "midlaj", age:"18"},
-    {firstname : "ahmed",lastname : "shibili" , age :"24"},
-    {firstname : "heyyyy", lastname: "hello " ,age:43},
-];
+
+// reduce 
+
+const numberArray = [23,34,8,63,98,90,54];
+
+
+// let total = 0;
+
+// for(let i=0;i<numberArray.length;i++){
+//     total += numberArray[i];
+// }
+// console.log(total);
+ 
+
+
+const newArray = numberArray.reduce((total,value) => total + value,0);
+
+console.log(newArray);
+
+
+
+
 
 
  
