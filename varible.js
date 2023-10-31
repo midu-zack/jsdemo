@@ -26,3 +26,21 @@ console.log("let",d);
 
 const e=93;
 console.log(e);
+
+
+
+
+export const mysting = "Today morning i wakeup "
+
+export const myfun = () => {
+    return 10;
+}
+
+
+export default function handelchange(){
+    return "inputvalue";
+}
+
+
+
+
