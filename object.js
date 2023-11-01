@@ -124,3 +124,4 @@ const aboutzack = {...zackbasicinfo,...midiubasicinfo}
 console.log(aboutzack);
 
 
+

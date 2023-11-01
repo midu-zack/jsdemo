@@ -1,10 +1,10 @@
 const users = [
     {firstname :"muhammed", lastname : "midlaj", age:"18"},
-    {firstname : "ahmed",lastname : "shibili" , age :"24"},
+    {firstname :"ahmed",lastname : "shibili" , age :"24"},
     {firstname : "heyyyy", lastname: "hello " ,age:43},
 ];
 
-const output = users.map((x) => x.firstname +" "+x.lastname);
+const output = users.map((x) => x.firstname + " " + x.lastname);
 console.log(output);
 
 

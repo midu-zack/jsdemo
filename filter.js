@@ -33,6 +33,6 @@ const gamingplay = [
 
 
 
-const newArray = gamingplay.filter((value) =>value.age===90 && value.id=== 0);
+const newArray = gamingplay.filter((value,index,array) => value.age===90 && value.id=== 0);
 
 console.log(newArray);

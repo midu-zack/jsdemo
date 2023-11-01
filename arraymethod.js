@@ -3,7 +3,9 @@
 const number =[23,43,53,53,67,]
 
 const newNumber = number.slice(2,4)
+const newsp =number.splice(2,4);
  
+console.log(newsp);
 console.log(newNumber);
 
 
