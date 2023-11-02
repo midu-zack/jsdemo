@@ -22,5 +22,5 @@ const gamingplay = [
 
 ];
 
-const finding = gamingplay.find((value) => value.name === "zack");
+const finding = gamingplay.find((value) => value.name === "midu");
 console.log(finding);
