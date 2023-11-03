@@ -8,6 +8,7 @@ let person ={
 
 console.log(person.name);
 
+
 // modified 
 console.log(person.age = 23);
 
@@ -122,6 +123,9 @@ const midiubasicinfo ={
 // just merging spred l
 const aboutzack = {...zackbasicinfo,...midiubasicinfo}
 console.log(aboutzack);
+
+
+
 
 
 
