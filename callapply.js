@@ -19,13 +19,3 @@ students.getname.call(students1)
 
 
 
-
- function x(){
-    var outer=45;
-    y()
-    function y(){
-        console.log(outer);
-        return y;
-    }
- }
- x();
