@@ -27,9 +27,9 @@ console.log(z);
 
 // illegal shadowing
 
-// let x =100;
 
-// {
-//     var x =500;
+//   let x = 100;
+//   {
+//       var x =500;
 
-// }
+//   }

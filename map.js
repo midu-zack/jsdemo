@@ -49,3 +49,8 @@ console.log(newArray);
 
 
 
+const arr = [3,4,2,5,2,9]
+
+const arrr = arr.map((x)=> x.toString(2));
+
+ console.log( arrr);
