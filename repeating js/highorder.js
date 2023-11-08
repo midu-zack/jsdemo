@@ -13,7 +13,7 @@
 
 
 function square(i) {
-    let result = 5+5
+    let result = 5 + 5;
     i(result)
 }
 

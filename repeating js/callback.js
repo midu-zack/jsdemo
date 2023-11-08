@@ -24,7 +24,7 @@ console.log("start First ");
 function getname(callbackfuntion){
 setTimeout(() => {
          callbackfuntion ("texting")
-    }, 5000)
+    }, 4000)
 }
 
 getname((value)=>{
@@ -32,7 +32,7 @@ getname((value)=>{
 
  } );
 
-
+  
 //  function value(normally){
 //     console.log(normally);
 //  }
@@ -40,3 +40,20 @@ getname((value)=>{
 //  getname(value);
 
 console.log("start End");
+
+
+
+console.log("heyy zack i trying");
+
+function callback(callbacktext){
+setTimeout(() => {
+    // console.log("heyy I waiting for you");
+    callbacktext(" i will under stand")
+},5000);
+}
+
+callback((passing)=>{
+    console.log(passing);
+})
+
+console.log("sorry  i will end");

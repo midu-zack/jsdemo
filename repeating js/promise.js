@@ -24,7 +24,7 @@ const promise1 = new Promise( (resolve,reject)=> {
 });
 
 const promise2 = new Promise((resolve,reject)=>{
-     reject("API Failed!")
+     resolve(["css","bootstrap"])
 });
 
 
@@ -40,9 +40,10 @@ const promise2 = new Promise((resolve,reject)=>{
 
 const allpormises = Promise.all([promise1,promise2])
 
+
 allpormises.then((res)=>{
-    console.log(res);
+    console.log(res.flat());
 })
 .catch((error)=>{
     console.log(error);
-})
+});

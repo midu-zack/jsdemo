@@ -18,7 +18,7 @@ const objj= {
     a : 10,
     b : 90,
      function(){
-    return this.a+this.b;
+    return this.a + this.b;
 
     }
 }

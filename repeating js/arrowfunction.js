@@ -40,9 +40,30 @@ const objj= {
 
 const reslt = () =>  console.log(objj);
  
- 
-
 reslt();
 
 
-console.log(numbertext);
+
+
+// function calling(){
+
+// }
+
+
+let va = ()=> console.log("heyy"); console.log("heyy"); console.log("heyy"); console.log("heyy"); console.log("heyy");  console.log("heyy");
+    console.log("heyy");
+    console.log("heyy");
+    console.log("heyy");
+    console.log("heyy");
+   
+   
+ va();
+
+// function  output(){
+//     console.log(array);
+// }
+
+// calling();
+
+//   console.log(array,arr2);
+
