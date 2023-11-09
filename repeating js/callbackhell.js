@@ -7,9 +7,9 @@
         },3000)
     }
 
-    function message1(callback){
+    function message1(minhaj){
         setTimeout(()=>{
-            callback("heyy MIdlaj");
+            minhaj("heyy MIdlaj");
         
         },3000)
     }
@@ -33,15 +33,15 @@
 
     message((value)=>{
         console.log(value);
-        message1((value)=>{
-            console.log(value);
+        message1((zack)=>{
+            console.log(zack);
             message2((value)=>{
                 console.log(value);
                 message3((value)=>{
                     console.log(value);
-                })
-            })
-        })
+                });
+            });
+        });
     })
 
 

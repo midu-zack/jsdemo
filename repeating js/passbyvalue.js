@@ -20,17 +20,32 @@
 
 //  }
 
- function x(y){
-     y();
- }
- function y(){
-    console.log(" i am y" );
- }
-
- x(y)
- 
- 
-
+function double(num) {
+    num = num * 2;
+   
 
  
+  }
+  
+  let x = 5;
+  double(x);
+  console.log("Outside", x);
+
+
+
+
+
+
+  function capitalize(str) {
+    str = str.toUpperCase();
+    console.log("Inside function:", str);
+  }
+  
+  let message = "hello";
+  capitalize(message);
+  console.log("Outside function:", message);
+  
+  
  
+ 
+

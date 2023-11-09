@@ -57,3 +57,24 @@ callback((passing)=>{
 })
 
 console.log("sorry  i will end");
+
+
+
+
+
+function add(cb){
+ 
+   setTimeout(() => {
+    
+    
+    cb()
+   },8000);
+}
+ 
+function hell(){
+    console.log("success");
+    
+}
+add(hell)
+
+

@@ -34,3 +34,15 @@ const g=10
 
 console.log(k,g);
 console.log(a);
+
+
+console.log(z);
+
+let z =90
+ 
+ 
+{
+    let z =78;
+}
+
+

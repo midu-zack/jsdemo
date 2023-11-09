@@ -1,4 +1,8 @@
+ 
+
 const arr=[90,8,7,5,4]
+
+
 
 const filt = arr.filter((value,index,array)=> value>8)
 console.log(filt);
