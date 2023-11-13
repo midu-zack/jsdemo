@@ -1,16 +1,14 @@
 console.log("1 projucet settup");
 
 function myfunction(callback ){
-    console.log("2 project settup");
-    console.log("3 product settup");
     setTimeout(()=>{
         console.log(" 44444pruct settup");
-        callback();
+        callback("i am call back ");
     },3000);
    
 }
   function displayon(callback){
-    console.log("5555 project settup");
+      console.log("5555 project settup");
     callback()
   }
 
@@ -44,8 +42,10 @@ function myfunction(callback ){
     
    })
 
-   
-
-
-
+    
     console.log("5 product settup");
+
+
+    function message(){
+      var a = 32;
+    }

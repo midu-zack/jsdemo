@@ -3,8 +3,10 @@
     name : "aslah",
     age : 10,
 
-    givename(){
-        console.log(this.name);
+    givename(toatally,keep){
+
+        console.log(`${this.name} - ${toatally}  ${keep}`   );
+
     }
     
  }
@@ -16,7 +18,10 @@ const marklist = {
    
 }
  
-mark.givename.call(marklist)
+mark.givename.call(mark, 450 , "chattiparamb")
 
-mark.givename.apply(marklist)
- 
+mark.givename.apply(marklist, [482,"Malappuram"])
+
+const binding = mark.givename.bind(mark, 900 , " kannor") ;
+
+ binding();

@@ -35,3 +35,14 @@ const gamingplay = [
 
 
 gamingplay.forEach((value,index,array) => console.log(value.age))
+
+
+
+const array = [ 89,2,421,52,52,64];
+
+const newarray = array.map((value,index,array)=>{
+    return value + 10
+})
+
+console.log(newarray);
+ 

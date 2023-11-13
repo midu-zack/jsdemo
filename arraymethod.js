@@ -57,3 +57,5 @@ let frt =fruits.pop();
 
 console.log(fruits);
 console.log(frt);
+
+
