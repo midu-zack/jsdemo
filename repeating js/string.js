@@ -27,7 +27,7 @@
 // console.log(text);
 
 let acess = "Muhammed Midlaj"
-let innesiol = "     pulladan   "
+let innesiol = /pulladan /  ;
  
 console.log( acess.length);    //length searching in this string
 
@@ -39,7 +39,7 @@ console.log(acess.concat(innesiol));  //mergin method
 
 console.log(acess.substring(14,15));  //find valeu text 
 
-console.log(acess.charAt(0)); 
+console.log(acess.charAt(14)); 
 
 let ansr = acess.replace("Midlaj","zack");  // changed name and new change name add
 console.log(ansr);
@@ -49,10 +49,10 @@ console.log(ansr);
 console.log(acess.toLocaleUpperCase());  //text upper case
 
 
-console.log(innesiol.trim());  //first space remove 
+// console.log(innesiol.trim());  //first space remove 
 
-console.log(innesiol.trimEnd());
-console.log(innesiol.trimStart());
+// console.log(innesiol.trimEnd());
+// console.log(innesiol.trimStart());
 
 console.log(acess.split('').join());
 
@@ -69,3 +69,6 @@ console.log(acess.localeCompare(innesiol)); //string comparison
 
 console.log(acess.charCodeAt(3));  // check number value 
 console.log(acess.charAt(3));  // checking number character postion 
+
+ let ans =acess.match(innesiol)
+ console.log(ans);
