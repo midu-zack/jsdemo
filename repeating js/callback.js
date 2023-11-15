@@ -66,7 +66,6 @@ function add(cb){
  
    setTimeout(() => {
     
-    
     cb()
    },8000);
 }
@@ -76,5 +75,52 @@ function hell(){
     
 }
 add(hell)
+
+
+
+
+// function message(value){
+//     value();
+  
+// }
+
+// function chatting(){
+//     console.log("hey zack");
+
+// }
+
+// message(chatting)
+
+
+
+
+ 
+
+ 
+
+
+// proper callback function
+
+
+console.log("starting my sample work ");
+
+function callbackfunction(cb){
+
+    setTimeout(() => {
+        cb();
+        console.log("sorry for late ");
+        
+    },2000);
+
+}
+
+function cb(){
+    console.log("i am callback function");
+}
+
+callbackfunction(cb);
+
+console.log("okey you countineu");
+
 
 

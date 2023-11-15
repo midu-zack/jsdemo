@@ -7,9 +7,9 @@
         },3000)
     }
 
-    function message1(minhaj){
+    function message1(part){
         setTimeout(()=>{
-            minhaj("heyy MIdlaj");
+            part("heyy MIdlaj");
         
         },3000)
     }
@@ -46,3 +46,34 @@
 
 
  console.log("end");
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ function zack(cb){
+    setTimeout(() => {
+        cb();
+        
+    },2000);
+ }
+
+ function zackis(cb){
+    setTimeout(() => {
+        cb();
+        
+    },2000);
+ }
+
+ 
+ 

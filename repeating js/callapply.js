@@ -1,15 +1,19 @@
 
  const mark = {
-    name : "aslah",
+    name : "midlaj",
     age : 10,
+    firstname :"Muhammed",
 
     givename(toatally,keep){
 
         console.log(`${this.name} - ${toatally}  ${keep}`   );
+        console.log(this.firstname +" "+ this.name);
 
     }
     
  }
+
+ console.log( mark.firstname + " "+ mark.name);
 
  
 const marklist = {

@@ -30,6 +30,14 @@ square(display)
 
 
 
+let array = [23,42,52,52,90,23,42];
+
+const sample =array.filter((value,index,array)=>{
+return array.indexOf(value)===index
+});
+
+console.log(sample);
+
  
 
 
