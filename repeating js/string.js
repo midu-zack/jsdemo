@@ -82,31 +82,42 @@ console.log(text);
 
 console.log(text.length);
 
-console.log(text.indexOf("e")); //searching character numer postion
+console.log(text.indexOf("e")); //searching character numer postion.
 
 console.log(text.charAt(0));
 
 console.log(text.charCodeAt(0)); 
 
-console.log(text.substring(12,0)); //swapping is the possible
+console.log(text.substring(12,0)); //swapping is the possible.
 
-console.log(text.startsWith("A"));  //start value check true or false 
+console.log(text.startsWith("A"));  //start value check true or false. 
 
-console.log(text.endsWith("off")); //end value check true or false 
+console.log(text.endsWith("off")); //end value check true or false. 
 
-console.log(text.includes("boy")); //check includes character
+console.log(text.includes("boy")); //check includes character.
 
-console.log(text.lastIndexOf("o"));  //Ending value check
+console.log(text.lastIndexOf("o"));  //Ending value check.
 
-console.log(text.indexOf("y")); //first value check 
+console.log(text.indexOf("y")); //first value check. 
 
-console.log(text.slice(24,28)); //cutting inside values
+console.log(text.slice(24,28)); //cutting inside values.
 
-console.log(text.replace("A","so")); //replace one values
+console.log(text.replace("A","so")); //replace one values.
 
-console.log(text.split("").join()); //spliting and join 
+console.log(text.split("").join()); //spliting and join.
 
-console.log(text.concat(text2)); //two string  merging
+console.log(text.concat(text2)); //two string  merging.
+
+
+let a = "23";
+let b = 89;
+
+console.log(parseInt(a)); // string convert  to number.
+
+console.log(b.toString()) // number conver to string.
+
+
+
 
 
 

@@ -16,6 +16,7 @@ let {firstName,lastName,age,place,id} = object   //object destrectering
 
 
 
+
 console.log(firstName);
 
 console.log(object.firstName + " " +  object.lastName);
