@@ -16,7 +16,7 @@
 
 
 
-c
+
 
 const promise1 = new Promise( (resolve,reject)=> {
     resolve([ "midu","andme"])

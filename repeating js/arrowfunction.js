@@ -67,3 +67,8 @@ let va = ()=> console.log("heyy"); console.log("heyy"); console.log("heyy"); con
 
 //   console.log(array,arr2);
 
+
+
+let arrowfun = ()=>    console.log("heyy zack");
+
+ arrowfun()

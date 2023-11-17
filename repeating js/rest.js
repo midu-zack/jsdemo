@@ -1,5 +1,5 @@
 function example(){
-    const array = [90,23,41,44,89]
+    const array = [90,23,41,44,89,89,98,76,56,34]
 
     const [a,b,c,d,e,...rest] = array
 
