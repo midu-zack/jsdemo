@@ -44,7 +44,3 @@ array1.forEach( function(textwork){
 
 let texting = val => val + 10 
 console.log( texting(990));
-
-
-
- 

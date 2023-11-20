@@ -1,12 +1,18 @@
-// const promise = new Promise( function (resolve,reject){
-//     setTimeout(()=>{
-        // resolve("Successfully!");
-//         reject("Faiald")
-//     },3000)
-   
-// })
+const promise = new Promise( function (resolve,reject){
+    setTimeout(()=>{
+        resolve("Successfully!");
+       
+    },3000)
 
-// promise.then((Response) => {
+    setTimeout(() => {
+        reject("Faiald")
+    }, 5000);
+   
+})
+promise.then
+
+
+// promise.then((Respqonse) => {
     
 //     console.log(Response);
     
@@ -18,14 +24,14 @@
 
 
 
-const promise1 = new Promise( (resolve,reject)=> {
-    resolve([ "midu","andme"])
+// const promise1 = new Promise( (resolve,reject)=> {
+//     resolve([ "midu","andme"])
 
-});
+// });
 
-const promise2 = new Promise((resolve,reject)=>{
-     resolve(["css","bootstrap"])
-});
+// const promise2 = new Promise((resolve,reject)=>{
+//      resolve(["css","bootstrap"])
+// });
 
 
 
@@ -38,12 +44,23 @@ const promise2 = new Promise((resolve,reject)=>{
 //     console.log(rejectvalue);
 // });
 
-const allpormises = Promise.all([promise1,promise2])
 
 
-allpormises.then((res)=>{
-    console.log(res.flat());
-})
-.catch((error)=>{
-    console.log(error);
-});
+
+
+
+
+
+
+
+
+
+// const allpormises = Promise.all([promise1,promise2])
+
+
+// allpormises.then((res)=>{
+//     console.log(res.flat());
+// })
+// .catch((error)=>{
+//     console.log(error);
+// });

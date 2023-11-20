@@ -71,4 +71,4 @@ let va = ()=> console.log("heyy"); console.log("heyy"); console.log("heyy"); con
 
 let arrowfun = ()=>    console.log("heyy zack");
 
- arrowfun()
+arrowfun()
