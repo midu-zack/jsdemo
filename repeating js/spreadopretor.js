@@ -32,7 +32,7 @@ const newsecond = {
 
 }
 
-const newmodel ={
+const newmodel = {
     ...newone,
     ...newsecond
 }

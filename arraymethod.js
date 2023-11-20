@@ -16,7 +16,7 @@ const names = ["musk" , "steve","mark"]
 names.map((name)=>console.log(name));
 
 const leng = names.length;
-console.log( leng);
+console.log(leng);
 
 
 

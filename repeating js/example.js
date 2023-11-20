@@ -1,6 +1,3 @@
-
-
- 
 // console.log(a);
 // var a = 89;
 
@@ -13,7 +10,7 @@
 // }
 
 
-// // console.log( b);
+// // console.log(b);
 
 
 // let car = "bmw";

@@ -4,7 +4,7 @@
 
 
 
-var x = " MALAYALAM"
+var x = "MALAYALAM"
 
 function revesrs(){
     console.log(x.split(``).reverse().join());

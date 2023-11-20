@@ -75,14 +75,14 @@ console.log(acess.charAt(3));  // checking number character postion  value
 
 
 
-let text = "A,your very bad boy so  every time off";
-let text2 = " all time running in my life"
+let text = "A,your very bad boy so every time off";
+let text2 = " all time running your my life"
 
 console.log(text);
 
 console.log(text.length);
 
-console.log(text.indexOf("e")); //searching character numer postion.
+console.log(text.indexOf("e")); //searching character number postion.
 
 console.log(text.charAt(0));
 

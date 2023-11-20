@@ -6,7 +6,7 @@ top();
 
 
 (function message(){
-    console.log("hey ");
+    console.log("hey");
 }
 )()
 
@@ -25,9 +25,10 @@ let arrow = ()=>  console.log("helloo");
 
 const array = [90,23,52,53,22,55]
 
-const newmap = array.map((value,index,array)=>{
-      value > 10 
+const newmap = array.filter((value,index,array)=>{
+     return value > 10 
 })
+
 console.log(newmap);
 
 

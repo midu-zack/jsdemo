@@ -1,6 +1,4 @@
-const array = [12,42,89,90,31,87,23,2]
-
-function MinAndMax(){
+function MinAndMax(array){
  
 
     var max = array[0]
@@ -21,7 +19,7 @@ function MinAndMax(){
     return {max,min};
  }
 
-    const result = MinAndMax();
+ const result = MinAndMax([12,42,89,90,31,87,23,2]);
     
 
  console.log("maxmimum",result.max);
@@ -30,32 +28,9 @@ function MinAndMax(){
 
  
 
-
-
-// const arr = [5, 2, 9, 1, 5, 6];
-  
  
 
-// function findMaxAndMin( ) {
  
-  
-//     let max = arr[0];
-//     let min = arr[0];
-  
-//     for (let i = 0; i < arr.length; i++) {
-//       if (arr[i] > max) {
-//         max = arr[i];
-    
-//       } else if (arr[i] < min) {
-//         min = arr[i];
-       
-//       }
-//     }
-//     return { max, min };  
- 
-//   }
-//   console.log(min);
-//   console.log( max);
  
 
   
