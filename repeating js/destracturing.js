@@ -46,6 +46,7 @@ myfun();
  const method = [90,32,41,52] ;
 
  function justexample([x,y,z,w]){
+
     console.log(x,y);
  }
 
@@ -56,4 +57,19 @@ justexample(method)
 
 
 
+
+const arrayjs = ["midlaj","muhammed","zack"]
+
+const[name,firstname,nickname]=arrayjs
+
+// console.log(firstname);
+
+
+// console.log(arrayjs.pop());
+ console.log(arrayjs.push("midu"));
+
+
+
+ console.log(arrayjs.unshift());
+ console.log(arrayjs);
 

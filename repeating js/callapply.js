@@ -5,13 +5,14 @@
     firstname :"Muhammed",
 
     givename(toatally,keep){
-
+        console.log(this);
         console.log(`${this.name} - ${toatally}  ${keep}`   );
         console.log(this.firstname +" "+ this.name);
 
     }
     
  }
+ mark.givename()
 
  console.log( mark.firstname + " "+ mark.name);
 
@@ -23,6 +24,7 @@ const marklist = {
 }
  
 mark.givename.call(mark, 450 , "chattiparamb")
+mark.givename
 
 mark.givename.apply(marklist, [482,"Malappuram"])
 

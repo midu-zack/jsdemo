@@ -60,7 +60,7 @@ var shallow2 ={
     ...shallow
 }
 
-shallow.hi = 8329
+shallow2.hi = 8329
 
 console.log(shallow,shallow2);
 
@@ -84,3 +84,6 @@ var ba = [90,23,13,2,5]
 
 var bs = [...ab,...ba]
 console.log(bs);
+
+
+ 

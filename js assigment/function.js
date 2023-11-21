@@ -49,9 +49,4 @@ high(order)
 
 
 //anounymouse function
-const array = [8,2,4,25,266,787,90]
-
- const answer = array.findIndex((value,index,array)=>{
-    return value > 4
- })
- console.log(answer);
+ const array=[90,26,28,9,37]
